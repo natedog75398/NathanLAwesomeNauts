@@ -21,7 +21,7 @@ game.TitleScreen = me.ScreenObject.extend({
 				return true;
 				//returning true
 			},
-
+                       
 			newGame: function(){
 				me.input.releasePointerEvent('pointerdown', this);
 				me.save.remove('exp');
@@ -32,8 +32,8 @@ game.TitleScreen = me.ScreenObject.extend({
 				me.save.add({exp: 0, exp2: 0, exp3: 0, exp4: 0});
 				me.state.change(me.state.PLAY);
 				//changing state to play
-
-			}
+                                //changes
+			}       
 	})));
 
 		me.game.world.addChild(new (me.Renderable.extend({

@@ -175,7 +175,7 @@ else if(this.body.vel.x !== 0 && !this.renderable.isCurrentAnimation("attack")) 
 			}else if(response.b.type==='EnemyCreep'){
 
 				this.collideWithEnemyCreep(response);
-	}
+ 	}
 		},
 
 		collideWithEnemyBase: function(response){
