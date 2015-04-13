@@ -1,4 +1,4 @@
-game.EnemyBaseEntity = me.Entity.extend({
+ game.EnemyBaseEntity = me.Entity.extend({ 
 				//comments are in code above because theyre exactly the same
 			init : function(x, y, settings){
 				this._super(me.Entity, 'init', [x, y, {
