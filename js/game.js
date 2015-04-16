@@ -122,9 +122,9 @@ var game = {
 		//new SPENDEXP file
 		me.state.set(me.state.SPENDEXP, new game.SpendExp());
 		//new LoadProfle file
-		me.state.set(me.state.LOAD, new game.LoadProfile());
-		//new NewProfile file
-		me.state.set(me.state.NEW, new game.NewProfile());
+//		me.state.set(me.state.LOAD, new game.LoadProfile());
+//		//new NewProfile file
+//		me.state.set(me.state.NEW, new game.NewProfile());
 
 		// Start the game.
 		//when game first starts...goes to title screen
